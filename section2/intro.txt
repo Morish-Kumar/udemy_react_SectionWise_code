@@ -1,0 +1,10 @@
+JS can be executed in many environment - 
+in the browser
+on any computer
+on mobile device
+
+Adding JS code to a website
+between <script> tag
+via <script> import(most preffered) - if we are using the script tag between head tag alway use defer keyword so that HTML is parsed before loading JS
+
+file extension - .js
