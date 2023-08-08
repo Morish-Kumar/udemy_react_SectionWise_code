@@ -1,0 +1,12 @@
+react is a JS library for building user interfaces from components
+
+react js vs vanilla JS
+vanilla js quickly become cumbersome
+quickly become error prone
+quickly become hard to maintain or edit
+react offer a way simpler "mental model"
+
+React = declarative UI programming
+Vanilla js = imperative programming approach
+
+
