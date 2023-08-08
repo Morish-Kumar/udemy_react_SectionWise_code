@@ -1,0 +1,17 @@
+react make building complex, interactive, user interfaces simpler
+
+components - combination of HTMl code, CSS code for styling and some JS code for Logic
+
+why components??
+resuability
+seperations of concerns
+split large chunk of code into smaller pieces
+
+How is components build??
+combine the component of HTML, CSS and JS together
+
+declarative approach - we don't tell the react to add certain elements should be created and inserted in a specific place 
+
+
+JSX - stands for JS XML code, it is HTML code inside of javascript 
+
