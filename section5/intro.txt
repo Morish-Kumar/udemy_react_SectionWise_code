@@ -1,0 +1,12 @@
+State concept in JS
+useState register some state for the component sin which it is called
+
+when the component in which state has been defined is called 4 time that the four instance of the state is created each for one component call which is independent of each other
+
+using useState hook is very easy 
+register state with useState, useState always accept two value a initial state and state updating function
+
+
+lifting state up - data/state is generated or changed on second component but it is needed in some other component then we use of lifting state up
+
+derived/computed state -
