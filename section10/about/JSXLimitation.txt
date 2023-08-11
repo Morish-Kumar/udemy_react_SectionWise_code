@@ -1,0 +1,7 @@
+Limitation - 
+if we have multiple tags to return in then we will get an error(In react  wwe can't return more than one root JSX elements)
+
+In bigger apps we can easily ends up with tons of unnecessary <div>'s which add no semantic meaning or structure to the page but are only there because of  React's/JSX requirement
+
+
+A wrapper component known as React Fragment come built in with react for wrapping the content of a JSX 
