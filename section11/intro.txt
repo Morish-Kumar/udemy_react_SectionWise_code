@@ -1,0 +1,16 @@
+side effect - everything else rendering ex: store data in browser, send HTTP rewuest, set and manages timers
+
+
+main job of react - render UI and react to user inputs, every component is concerned with building somthing onto the screen
+
+
+useEffect hooks - used to handler side effect. accept two parameter first is a function and second is a array of dependencies
+
+if the dependencies changes then the useEffect function will re-run
+
+main role of useEffect is to handle side effect
+
+if there are multiple useEffect function then all the useEffect function will run if the component re-render
+
+
+useReducer - built in hooks used for state management, useFul for more complex state
