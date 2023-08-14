@@ -1,0 +1,22 @@
+js library for buildinuser interfaces, react works with the help of components
+react DOM - interface to the web
+
+React know how to work with components but it do not care about whether the components contain HTML elements or not 
+
+react manage the change in state and render the same to DOM about what has been changed
+
+whenever props, state or context changes components that use these concept are updated
+
+
+In short react determine how thw components tree currently looks like and what it should look like and reactDOM receive the difference and  then manipulate the real DOM
+
+NOTE: re-evaluating components is not equal to re-rendering the DOM
+
+only the difference between the previous code snapshot and current code snapshot is rendered to the DOM 
+
+even if we try to change in some other file other than APP.js file the file will be rendered
+
+
+react.memo(component_name) - prevent unecessary re-rendering or rendering the components under certain circumstances, this method only works with the functional components and not with class based components
+
+use of memo - tell react that for the components which memo get as a arguments react should look at the props which it get  and check the  new value for all those props and if the previous props changes then that components should be re-executed and re-evaluated
