@@ -1,0 +1,20 @@
+alternative to function
+
+class-based components - define component by using class, uses a render method which define the-to-be-rendered output, was required in past can't use hooks 
+
+
+props don't work in class based components instead we have to import Components from react
+
+after importing the Component we can access the props through this.props
+
+
+NOTE: class based component work together with functional based component
+
+
+class based component lifecycle - 
+componentDidMount() - built in method which we use as soon as we extend the built in components which we import from react, react call this method when the component was just mounted
+
+
+componentDidUpdate() - called when we updated something in the component
+
+componentWillUnmount() - called before component is unmounted/ removed from DOM
