@@ -1,0 +1,5 @@
+custom hooks - regular functions just as the built in hooks like the useState
+
+outSource stateful logic into resuable functions,
+unlike regular functions custom hooks can use other react hooks and react state 
+we must name the custom hook function/component which should start with the word "use"
